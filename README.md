@@ -1,2 +1,2 @@
 # my-site
-Created with CodeSandbox
+my personal site
