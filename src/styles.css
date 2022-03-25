@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  font-size: 65px;
+  color: #afafaf;
+}
+h2 {
+  font-size: 55px;
+  color: whitesmoke;
+}
+h3 {
+  font-size: 45px;
+  color: #271d46;
+  
+}
+
+h3 a{
+  color:honeydew;
+}
+
+
+h4 {
+  font-size: 30px;
+  color: grey;
+}
+h5 {
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+table{
+  border-collapse: collapse;
+  border-color: #271d46;
+  position: absolute;
+  left: 5%;
+  top: 800px;
+}
+
+
+
+
+#nav {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #271d46;
+  
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  padding: 25px;
+  font-size: 25px;
+}
+
+li a:hover {
+  color: grey;
+}
+li:first-child {
+  float: left;
+}
+
+#body {
+  background-color: #afafaf;
+  text-align: justify;
+}
+#projects{
+  background-color: #afafaf;
+  
+  padding: 100px;
+  padding-left: 500px;
+}
+.divider {
+  border: 0;
+  border-top: 7px dotted #8c8c8c;
+  width: 20px;
+}
+
+.filler {
+  background-color: #271d46;
+  padding: 200px;
+  padding-left: 200px;
+  
+  
+}
+
+.tech {
+  font-size: 30px;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+
+.home {  
+  text-align: center;
+  background-color: #271d46;
+  padding-bottom: 600px;
+  padding-left: 0px;
+}
+
+#type {  
+  color: white;
+	font-size: 30px;
+	text-align: center;
+	animation: glow 1s ease-in-out infinite alternate;
+	  
+}
+@keyframes glow {
+  from{
+  text-shadow: 0 0 10px #afafaf, 0 0 20px #afafaf}
+to {
+  text-shadow: 0 0 10px #afafaf, 0 0 10px #afafaf;
+}}
+
+#intro {
+  font-size: 40px;
+  
+}
+#about{
+  text-align: left;
+  margin-left: 10px;
+  color: white;
+}
+
+.abt {
+  color: white;
+  
+}
+
+.link {
+  color: grey;
+}
+.link:hover{
+  color: white;
+}
+
+.vl {
+  border-left: 400px solid #271d46 ;
+  height: 1760px;
+  position: absolute;
+  left: 3%;
+  margin-left: -1px;
+  top: 1342px;
+}
+
+
+#Home{
+  padding: 100px;
+}
+#button{
+  border: none;
+  background-color: inherit;
+  transform: scale(15);
+  position: absolute;
+  cursor: pointer;
+  display: inline-block;
+  right: 25%; 
+  text-align: center; 
+  text-align: top;
+  bottom: 40px;
+}
+
+#skill{
+  font-size: 80px;
+  text-shadow: 0 0 10px #afafaf,0 0 12px white;
+
+}
+
+
+button {
+ 
+  border: none;
+  background-color: inherit;
+  position: absolute;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center; 
+  text-align: top;
+  transform: scale(1.5);
+  
+}
+
+.img{
+  left: -40%; 
+  
+}
